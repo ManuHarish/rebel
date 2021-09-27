@@ -14,7 +14,7 @@ pipeline
       {
           steps
           {
-            sh 'touch abc'
+            sh 'manipulate abc'
           }
       }
       stage ('testing the code')
