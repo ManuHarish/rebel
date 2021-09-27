@@ -7,7 +7,7 @@ pipeline
       {
           steps
           {
-            git url: 'https://github.com/RavitejaAdepudi/javawar.git'
+            sh 'touch bbb'
           }
       }
        stage ('building the code')
